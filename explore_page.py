@@ -2,6 +2,19 @@ from json import load
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
+import zipfile
+import wget
+
+if os.path.exists("survey_results_public.csv") == False:
+    url = "https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2022.zip"
+
+    file_zip = wget.download(url)
+
+    with zipfile.ZipFile(file_zip) as file:
+        file.extract("survey_results_public.csv")
+
+    os.remove(file_zip)
 
 def shorten_categories(categories, cutoff):
     categorical_map = {}
