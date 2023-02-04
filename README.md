@@ -3,7 +3,7 @@
 DevPay is a machine learning web application that provides insights into software developer salaries based on the Stack Overflow Annual Developer Survey 2022. It utilizes the power of Python and the simplicity of Streamlit to provide a user-friendly interface for users to interact with the data.
 
 ## Demo
-https://ajosegun-stack-overflow-annual-developer-survey-2022-app-50tbiv.streamlit.app/
+[DevPay](https://ajosegun-devpay-app-x6a3ra.streamlit.app/)
 
 ## Features
 Average salary calculation based on various factors such as years of experience, job title, country, and programming language.
