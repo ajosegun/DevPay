@@ -31,7 +31,9 @@ pip install -r requirements.txt
 ## Usage
 To run the application, navigate to the root directory of the project in the terminal and run the following command:
 
+```
 streamlit run app.py
+```
 
 This will start the application and launch a local server at http://localhost:8501/ in your web browser.
 
