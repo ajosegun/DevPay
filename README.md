@@ -5,6 +5,9 @@ DevPay is a machine learning web application that provides insights into softwar
 ## Demo
 [DevPay](https://ajosegun-devpay.streamlit.app/)
 
+![DevPay Image](./DevPayHome.png)
+
+
 ## Features
 Average salary calculation based on various factors such as years of experience, job title, country, and programming language.
 
