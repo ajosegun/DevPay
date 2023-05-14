@@ -1,16 +1,14 @@
-# DevPay - Deployed on Streamlit
+# Pix2Pix GAN for Image-to-Image Translation
 
-DevPay is a machine learning web application that provides insights into software developer salaries based on the Stack Overflow Annual Developer Survey 2022. It utilizes the power of Python and the simplicity of Streamlit to provide a user-friendly interface for users to interact with the data.
+The Pix2Pix Generative Adversarial Network, or GAN, is an approach to training a deep convolutional neural network for image-to-image translation tasks.
 
 ## Technologies
 
 | Technology   | Description                                                               |
 |--------------|---------------------------------------------------------------------------|
 | Python       | An interpreted, high-level programming language used for general-purpose programming. |
-| Streamlit    | An open-source Python library used to build interactive web applications. |
+| Keras        | An open-source Python library used to build interactive web applications. |
 | NumPy        | A popular Python library used for scientific computing and working with arrays. |
-| Pickle       | A Python module used for serializing and de-serializing Python objects. |
-| Scikit-learn | A Python library used for machine learning and data analysis.                |
 
 
 ## Demo
